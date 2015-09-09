@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="zheng.com.MainActivity" >
+
+    <item
+        android:id="@+id/showDialog"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Show Dialog"/>
+    
+    <item 
+        android:id="@+id/showToast"
+        android:title="Show Toast"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_launcher"
+        />
+
+</menu>

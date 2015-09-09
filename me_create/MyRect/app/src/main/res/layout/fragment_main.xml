@@ -1,0 +1,23 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zheng="http://schemas.android.com/apk/res/com.zheng.myrect"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zheng.myrect.MainActivity$PlaceholderFragment">
+
+
+    <com.zheng.myrect.MyRect
+        zheng.rect_color="#ff4457ff"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <!--<view-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--class="com.zheng.myrect.MyRect"-->
+    <!--android:id="@+id/view"-->
+    <!--android:layout_gravity="right"/>-->
+
+</LinearLayout>

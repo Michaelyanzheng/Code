@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AnimationAll</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="animation_all_button">Animation All Button  zheng michael</string>
+</resources>

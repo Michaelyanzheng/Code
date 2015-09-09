@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SoundPoolTest</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="sound_button">Sound</string>
+    <string name="music_button">Music</string>
+
+</resources>

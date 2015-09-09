@@ -1,0 +1,17 @@
+<LinearLayout
+              xmlns:android1="http://schemas.android.com/apk/res/android"
+              android1:layout_width="match_parent"
+              android1:layout_height="match_parent"
+              android1:orientation="vertical">
+
+
+    <CheckBox
+        android1:id="@+id/checkbox"
+        android1:text="启动后呈现对话框"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:checked="false"/>
+
+
+
+</LinearLayout>

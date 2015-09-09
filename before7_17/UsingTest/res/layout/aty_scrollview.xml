@@ -1,0 +1,159 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+         android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        
+    
+
+    <RadioGroup
+        android1:id="@+id/radioGroup1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content" >
+    </RadioGroup>
+
+    <RadioGroup
+        android1:id="@+id/radioGroup2"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content" >
+
+        <ProgressBar
+            android1:id="@+id/progressBar3"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content" />
+
+        <ProgressBar
+            android1:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleLarge"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content" />
+
+        <ProgressBar
+            android1:id="@+id/progressBar13"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content" />
+
+        <ProgressBar
+            android1:id="@+id/progressBar5"
+            style="?android:attr/progressBarStyleLarge"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content" />
+
+        <ProgressBar
+            android1:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content" />
+
+        <RadioButton
+            android1:id="@+id/radio1"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:text="RadioButton" />
+
+        <ProgressBar
+            android1:id="@+id/progressBar12"
+            style="?android:attr/progressBarStyleLarge"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content" />
+
+        <ProgressBar
+            android1:id="@+id/progressBar11"
+            style="?android:attr/progressBarStyleLarge"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content" />
+
+        <ProgressBar
+            android1:id="@+id/progressBar10"
+            style="?android:attr/progressBarStyleLarge"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content" />
+
+        <ProgressBar
+            android1:id="@+id/progressBar9"
+            style="?android:attr/progressBarStyleLarge"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content" />
+
+        <ProgressBar
+            android1:id="@+id/progressBar8"
+            style="?android:attr/progressBarStyleLarge"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content" />
+
+        <ProgressBar
+            android1:id="@+id/progressBar7"
+            style="?android:attr/progressBarStyleLarge"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content" />
+
+        <ProgressBar
+            android1:id="@+id/progressBar6"
+            style="?android:attr/progressBarStyleLarge"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content" />
+
+        <ProgressBar
+            android1:id="@+id/progressBar4"
+            style="?android:attr/progressBarStyleLarge"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content" />
+
+        <RadioButton
+            android1:id="@+id/radio2"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:text="RadioButton" />
+
+        <RatingBar
+            android1:id="@+id/ratingBar3"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content" />
+
+        <RatingBar
+            android1:id="@+id/ratingBar5"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content" />
+
+        <RatingBar
+            android1:id="@+id/ratingBar4"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+    <RatingBar
+        android1:id="@+id/ratingBar2"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content" />
+
+    <RatingBar
+        android1:id="@+id/ratingBar1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content" />
+
+    <RadioGroup
+        android1:id="@+id/radioGroup3"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content" >
+
+        <RadioButton
+            android1:id="@+id/radio0"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:checked="true"
+            android1:text="RadioButton" />
+
+        
+
+       
+    </RadioGroup>
+
+
+    </LinearLayout>
+</ScrollView>

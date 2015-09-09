@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="中午吃什么"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <CheckBox
+        android:id="@+id/cbWater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water" />
+
+    <CheckBox
+        android:id="@+id/cbVegetable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vegetable" />
+
+    <CheckBox
+        android:id="@+id/cbRice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rice" />
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</LinearLayout>

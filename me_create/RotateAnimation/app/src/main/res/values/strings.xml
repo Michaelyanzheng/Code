@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RotateAnimation</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="rotateanimation_button">RotateAnimation Button</string>
+</resources>
