@@ -9,6 +9,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.LayoutAnimationController;
+import android.view.animation.ScaleAnimation;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -63,6 +65,10 @@ public class WeatherFragmentList extends Fragment implements BackPressedListener
 
     private static final String SELECTEDPROVINCE = "selectedProvince";
     private static final String SELECTEDCITY = "selectedCity";
+
+    private LayoutAnimationController mLayoutAnimationController;
+    private ScaleAnimation mScaleAnimation;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -150,10 +156,17 @@ public class WeatherFragmentList extends Fragment implements BackPressedListener
                             addToBackStack(null).
                             commit();
                 }
+                mListView.startLayoutAnimation();
             }
         });
 
+        mScaleAnimation = new ScaleAnimation(0,1,0,1);
+        mScaleAnimation.setDuration(500);
+        mLayoutAnimationController = new LayoutAnimationController(mScaleAnimation,0.5f);
+        mListView.setLayoutAnimation(mLayoutAnimationController);
+
         refresh();
+
 
         return view;
     }
@@ -172,6 +185,7 @@ public class WeatherFragmentList extends Fragment implements BackPressedListener
 
             queryCounties();
         }
+
     }
 
     private void queryProvinces(){
@@ -397,5 +411,6 @@ public class WeatherFragmentList extends Fragment implements BackPressedListener
 
                 break;
         }
+        mListView.startLayoutAnimation();
     }
 }
