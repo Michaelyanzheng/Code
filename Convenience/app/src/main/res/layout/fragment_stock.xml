@@ -15,7 +15,7 @@
         android:id="@+id/getStock_Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="getStock"/>
+        android:text="@string/get_stock_code"/>
 
     <ScrollView
         android:background="#f4000000"

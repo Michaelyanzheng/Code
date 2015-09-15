@@ -16,6 +16,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.zheng.convenience.R;
 import com.zheng.convenience.util.Config;
@@ -146,25 +147,28 @@ public class StockFragment extends Fragment {
 
                 String queryStockCode = mQueryEditText.getText().toString().trim();
 
-                //                if (TextUtils.isEmpty(queryStockCode)) {
-                //
-                //                    Toast.makeText(getActivity(), getString(R.string.please_into_stock_code), Toast.LENGTH_SHORT).show();
-                //
-                //                } else {    queryStockCode
 
-                new GetStock("sh601009", new GetStock.SuccessCallback() {
-                    @Override
-                    public void onSuccess(String result) {
+                if (TextUtils.isEmpty(queryStockCode)){
 
-                        refreshTextView(result);
-                    }
-                }, new GetStock.FailCallback() {
-                    @Override
-                    public void onFail() {
+                    Toast.makeText(getActivity(),getString(R.string.get_stock_code),Toast.LENGTH_SHORT).show();
 
-                    }
-                });
-                //                }
+                }else{
+
+                    new GetStock(queryStockCode, new GetStock.SuccessCallback() {
+                        @Override
+                        public void onSuccess(String result) {
+
+                            Log.d(Config.TAG,result);
+
+                            refreshTextView(result);
+                        }
+                    }, new GetStock.FailCallback() {
+                        @Override
+                        public void onFail() {
+
+                        }
+                    });
+                }
             }
         });
 
